@@ -16,7 +16,7 @@
 2. Выполните следующие команды:
   ```bash
   mvn clean install
-  java -cp "target\task1-1.0-SNAPSHOT.jar:libs\dummy-connector.jar" com.example.App
+  java -cp "target\task1-1.0-SNAPSHOT.jar;libs\dummy-connector.jar" com.example.App
   ```
 
 ## Задание 2: Отправка сообщений из файла
